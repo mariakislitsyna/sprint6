@@ -47,4 +47,4 @@ class TestYaScooterHomePage:
         ya_scooter_home_page.wait_url_until_not_about_blank()
         current_url = ya_scooter_home_page.current_url()
 
-        assert (Urls.YANDEX_HOME_PAGE in current_url) or (Urls.DZEN_HOME_PAGE in current_url) or (Urls.YANDEX_CAPTCHA_PAGE in current_url)
+        assert (Urls.YANDEX_HOME_PAGE in current_url)
